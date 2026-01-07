@@ -29,7 +29,7 @@ Python codebase organized into several directories.
 
 ## Overview
 
-GEOMIND combines data preprocessing, neural-network models and Bayesian optimization to:
+GEOMIND combines data preprocessing and neural-network models to:
 
 1. Read a geopolymer database (precursor proportions and corresponding properties).
 2. Train GEOMIND neural-network models (Simulator, Formulator, Trainer) and comparative models.
@@ -238,7 +238,8 @@ custom scripts for advanced workflows.
 - **Sébastien Rousseau**¹ ²  
 - **Assil Bouzid**¹  
 - **Sylvie Rossignol**¹  
-- **Ameni Gharzouni**¹ ✉
+- **Ameni Gharzouni**¹
+✉ ameni.gharzouni@unilim.fr
 
 ¹ Institut de Recherche sur les Céramiques, UMR 7315 CNRS - Université de Limoges,  
 Centre Européen de la Céramique, 12 rue Atlantis, 87068 Limoges Cedex, France.  

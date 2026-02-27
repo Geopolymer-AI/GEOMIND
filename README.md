@@ -145,7 +145,7 @@ pip install scipy==1.11 matplotlib==3.8 numpy==1.26 pydash \
 
 ---
 
-## Getting started
+### Getting started
 
 1. **Prepare the data**
 

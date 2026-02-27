@@ -1,4 +1,4 @@
-# GEOMIND
+# GEOMIND (v1.0.0)
 
 **GEOMIND: A hybrid generative artificial intelligence for geopolymer design and optimization**
 

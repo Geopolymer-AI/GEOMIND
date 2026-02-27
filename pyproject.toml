@@ -1,0 +1,57 @@
+[project]
+name = "GEOMIND"
+version = "0.1.0"
+description = "GEOMIND: A hybrid generative AI toolkit for geopolymer design and optimization from target material properties."
+readme = "README.md"
+requires-python = ">=3.9,<3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Sébastien Rousseau" },
+    { name = "Assil Bouzid" },
+    { name = "Sylvie Rossignol" },
+    { name = "Ameni Gharzouni", email = "ameni.gharzouni@unilim.fr" },
+]
+keywords = [
+    "geopolymer",
+    "materials design",
+    "machine learning",
+    "generative ai",
+    "optimization",
+    "tensorflow",
+    "keras",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Materials Science",
+]
+dependencies = [
+    "scipy==1.11",
+    "matplotlib==3.8",
+    "numpy==1.26",
+    "pydash",
+    "xgboost==2.0",
+    "scikit-learn==1.4",
+    "keras==2.15",
+    "tensorflow==2.15",
+    "tensorflow_probability==0.23",
+    "gpyopt==1.2",
+    "jupyter>=1.1.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/Geopolymer-AI/GEOMIND"
+Repository = "https://github.com/Geopolymer-AI/GEOMIND"
+Notebook = "https://github.com/Geopolymer-AI/GEOMIND/blob/main/GEOMIND.ipynb"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+#[tool.uv.extra-build-dependencies]
+#gpyopt = ["matplotlib", "scipy", "GPy"]

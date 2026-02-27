@@ -96,7 +96,8 @@ The main branch currently contains:
 ├── plotting/               # Histogram, heatmap and prediction plotting utilities
 ├── results/                # Training outputs, figures and prediction exports
 ├── GEOMIND.ipynb           # Main notebook: end-to-end workflow
-└── GEOMIND_diagram_package.png  # Package architecture diagram
+├── GEOMIND_diagram_package.png  # Package architecture diagram
+└── pyproject.toml          # Project metadata, dependencies and build configuration
 ```
 
 > **Note**: Ensure at least the `data/`, `results/` and `saved model` locations are
@@ -122,6 +123,7 @@ Required packages (tested versions):
 - `tensorflow==2.15`
 - `tensorflow_probability==0.23`
 - `gpyopt==1.2`
+- `jupyter>=1.1.1`
 
 You can install dependencies with `pip`.
 
@@ -132,9 +134,14 @@ You can install dependencies with `pip`.
 python3.9 -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
-# Install dependencies
-pip install scipy==1.11 matplotlib==3.8 numpy==1.26 pydash             xgboost==2.0 scikit-learn==1.4 keras==2.15             tensorflow==2.15 tensorflow_probability==0.23             gpyopt==1.2
-```
+# Option 1 (recommended): install dependencies from pyproject.toml
+pip install .
+
+# Option 2 (manual): install dependencies explicitly
+pip install scipy==1.11 matplotlib==3.8 numpy==1.26 pydash \
+            xgboost==2.0 scikit-learn==1.4 keras==2.15 \
+            tensorflow==2.15 tensorflow_probability==0.23 \
+            gpyopt==1.2 jupyter>=1.1.1
 
 ---
 

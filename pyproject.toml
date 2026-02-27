@@ -1,6 +1,6 @@
 [project]
 name = "GEOMIND"
-version = "0.1.0"
+version = "v1.0.0"
 description = "GEOMIND: A hybrid generative AI toolkit for geopolymer design and optimization from target material properties."
 readme = "README.md"
 requires-python = ">=3.9,<3.10"
@@ -54,4 +54,5 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 #[tool.uv.extra-build-dependencies]
+
 #gpyopt = ["matplotlib", "scipy", "GPy"]

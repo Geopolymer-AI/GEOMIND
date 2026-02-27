@@ -142,10 +142,10 @@ pip install scipy==1.11 matplotlib==3.8 numpy==1.26 pydash \
             xgboost==2.0 scikit-learn==1.4 keras==2.15 \
             tensorflow==2.15 tensorflow_probability==0.23 \
             gpyopt==1.2 jupyter>=1.1.1
-
+```
 ---
 
-### Getting started
+## Getting started
 
 1. **Prepare the data**
 
